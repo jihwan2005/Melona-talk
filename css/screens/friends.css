@@ -1,0 +1,64 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWy78cujIzbj2HzS89OTGsPeHqNwEkBIn3EQ&usqp=CAU");
+  padding: 15px 0px;
+  font-weight: 600;
+}
+
+.display span {
+  margin: 0px 10px;
+}
+
+.friend-info {
+  display: flex;
+  align-items: center;
+}
+
+
+.user-component__profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  margin-right: 20px;
+  padding: 0px 20px;
+  margin-right: 0;
+}
+
+.friend {
+  margin-bottom: 20px;
+}
+
+
+.friend-num {
+  padding: 20px;
+  opacity: 0.7;
+}
+
+.friends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend-music {
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.friend-music span{
+  opacity: 0.7;
+  border-radius: 40px;
+}
+
+.friend-music i {
+  color: #7ec85d;
+}
+
+.friend-music__info {
+  border: 1px solid #7ec85d;
+  padding : 5px 10px;
+  border-radius: 40px;
+}

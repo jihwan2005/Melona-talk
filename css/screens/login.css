@@ -53,10 +53,7 @@
 }
 
 
-
-
-
-a {
+.login-hr {
   display: flex;
   justify-content: center;
   align-items: center;
