@@ -11,6 +11,13 @@
 @import "screens/friends.css";
 @import "screens/chats.css";
 @import "screens/find.css";
+@import "screens/my.css";
+@import "screens/chat.css";
+@import "screens/chat-night.css";
+@import "screens/keyboard.css";
+@import "screens/settings.css";
+@import "screens/logout.css";
+@import "screens/logoutbefore.css";
 body {
   background-color: white;
   height: 1000vh;

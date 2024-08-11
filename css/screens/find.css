@@ -121,4 +121,5 @@ input[type="checkbox"]:checked + label {
 
 .post-icon i:hover {
   color: #51a73a;
+  cursor: pointer;
 }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My - MelonaTalk</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class = "status-bar">
+    <div class="status-bar__column">
+      <span>9월 1일 일요일</span>
+    </div>
+    <div class="status-bar__column">
+      <span>09:01</span>
+    </div>
+    <div class="status-bar__column">
+      <i class="fa-solid fa-comment-dots"></i>
+      <i class="fa-solid fa-volume-xmark"></i>
+      <i class="fa-solid fa-wifi"></i>
+      <i class="fa-solid fa-battery-quarter"></i>
+    </div>
+  </div>
+
+  <header class = "screen-header">
+    <h1 class = "screen-header__title">More</h1>
+    <div class = "screen-header__icons">
+      <sapn class = "screen-header__icon"><i class="fa-solid fa-magnifying-glass fa-xl"></i></sapn>
+      
+      <sapn class = "screen-header__icon"><i class="fa-solid fa-music fa-xl"></i></sapn>
+      
+      <a href="setting.html"><sapn class = "screen-header__icon"><i class="fa-solid fa-gear fa-xl"></i></sapn></a>
+    </div>
+  </header>
+
+  <div class="chat">
+    <div class="chat__column">
+      <img src="https://avatars.githubusercontent.com/u/177184263?v=4" class = "user-component__avater"/>
+      <div class = "chat__text">
+        <h4 class = "chat__title">Ji hwan</h4>
+        <h3 class = "chat__subtitle">010-1234-5678</h3>
+      </div>
+    </div>
+    <div class="chat__column">
+      <i class="fa-regular fa-note-sticky fa-2x"></i>
+    </div>
+  </div>
+
+  <div class = "display2">
+    <span>오늘 오후 10시, 서버 점검이 시행될 예정입니다. 오후 10시부터 다음날 오전 6시까지 이용이 중단되오니 양해부탁드립니다.</span>
+  </div>
+
+  <div class = "news">
+    <span>News</span>
+  </div>
+
+
+  <div class = "newspaper">
+    <div class = "newspaper-top">
+      <div class = "newspaper-place">
+        <span>Melona News</span>
+      </div>
+      <div class = "newspaper-title">
+        <span>메로나 값 올해 30% 오를 것으로 전망, 소비자들은 한숨만</span>
+      </div>
+    </div>
+      
+    <div class = "newspaper-bottom">
+      <div class = "newspaper-img">
+            <img src = "data:image/jpeg;base64,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"/>
+          
+      </div>
+      <div class = "newspaper-content">
+        <p>
+              최근 이상 기후로 인한 메론 수확량 감소와, 메로나 공장 노동자들의 총파업으로 인해 메로나의 생산량이 감소하여 메로나 값이 30% 가량 큰 폭으로 오를 전망이다. 이에 소비자들은 간편 간식인 메로나의 지속적인 가격 인상으로 부담 없이 먹기가 힘들어진다는 한숨 섞인 반응을 보이고 있다...   
+            </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class = "post-icon">
+    <i class="fa-regular fa-heart fa-xl"></i>
+    <span>2.3k</span>
+    <i class="fa-solid fa-retweet fa-xl"></i>
+    <span>23k</span>
+    <i class="fa-regular fa-comment fa-xl"></i>
+    <span>6.5k</span>
+    <i class="fa-regular fa-eye fa-xl"></i>
+    <span>14.2k</span>
+
+  </div>
+
+  <nav class = "nav">
+    <ul class = "nav__list">
+      <li class = "nav__btn">
+        <a class = "nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+      </li>
+      <li class = "nav__btn">
+        <a class = "nav__link" href="chats.html">
+          <div class = "nav__notification">2</div>
+          <i class="fa-solid fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class = "nav__btn">
+        <a class = "nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+      </li>
+      <li class = "nav__btn">
+        <div class = "nav__notification2">!</div>
+        <a class = "nav__link" href="My.html"><i class="fa-solid fa-ellipsis fa-2x"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <script src="https://kit.fontawesome.com/f261383c8e.js" crossorigin="anonymous"></script>
+</body>
+</html>

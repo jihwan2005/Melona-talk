@@ -1,0 +1,108 @@
+.keyboard {
+  bottom: 0px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid yellow;
+  margin-bottom: 20px;
+
+}
+
+.keyboard-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.keyboard-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.first-line{
+  display: flex;
+}
+
+.second-line{
+  display: flex;
+}
+
+.third-line{
+  display: flex;
+}
+
+.fourth-line{
+  display: flex;
+}
+
+.keyboard-keys {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 7px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+.keyboard-top input {
+  border: #88bf2b;
+  border-radius: 30px;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 0px 10px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+
+
+.keyboard-input:focus{
+  border: 4px solid #88bf2b;
+}
+
+.keyboard-bottom {
+  background-color:#88bf2b;
+  padding: 20px 20px 5px;
+  border-radius: 20px;
+}
+
+.keyboard-key {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.fourth-line .keyboard-keys:nth-child(4) span {
+  margin: 0px 40px;
+}
+
+.fourth-line .keyboard-keys:last-child span {
+  margin: 0px 20px;
+}
+
+.fourth-line .keyboard-keys:last-child,
+.fourth-line .keyboard-keys:first-child,
+.fourth-line .keyboard-keys:nth-child(2),
+.fourth-line .keyboard-keys:nth-child(3){
+  background-color: #e4e269;
+}
+
+.third-line .keyboard-keys:first-child,
+.third-line .keyboard-keys:last-child {
+  background-color: #e4e269;
+}
+
+.keyboard-top i {
+  margin-top: 13px;
+  color: #50c916;
+}

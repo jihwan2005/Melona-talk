@@ -1,0 +1,19 @@
+.setting {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.setting-icon {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.setting-icon span {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.setting-icon:last-child i {
+  color: #0c9437;
+}
+

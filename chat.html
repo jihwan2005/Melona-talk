@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chat - MelonaTalk</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id = "chat-secreens">
+  <div class = "status-bar">
+    <div class="status-bar__column">
+      <span>9월 1일 일요일</span>
+    </div>
+    <div class="status-bar__column">
+      <span>09:01</span>
+    </div>
+    <div class="status-bar__column">
+      <i class="fa-solid fa-comment-dots"></i>
+      <i class="fa-solid fa-volume-xmark"></i>
+      <i class="fa-solid fa-wifi"></i>
+      <i class="fa-solid fa-battery-quarter"></i>
+    </div>
+  </div>
+
+  <header class = "screen-header2">
+    <div class = "header-column">
+      <a href="chats.html">
+        <i class="fa-solid fa-chevron-left fa-xl"></i>
+      </a>
+    </div>
+    <div class = "header-column">
+      <span class = "header-title">Chat</span>
+    </div>
+    <div class = "header-column">
+      <a href="chat-night.html"><i class="fa-solid fa-moon fa-xl"></i></a>
+    </div>
+  </header>
+
+  <div class = "time-stamp">
+    <div class = "time-notify">
+      <span>Sunday, september 1, 2024</span>
+    </div>
+    
+  </div>
+
+  <div class="message-row">
+    <img src = "https://search.pstatic.net/common/?src=https%3A%2F%2Fditto-phinf.pstatic.net%2F20240404_140%2F1712211848924etc7e_PNG%2F660e47878357bb7883103996.png&type=o&size=472x472&ttype=input"/>
+    <div class = "message-row__content">
+      <span class = "message__author">Nicolas</span>
+      <div class = "message__info">
+        <span class = "message__bubble">Good Morning!</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="message-img">
+      <img src = "data:image/jpeg;base64,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"/>
+      <div class = "message__info">
+        <span class = "message__time">09:00</span>
+      </div>
+    </div>
+  </div>
+
+  <div class = "keyboard">
+    <div class = "keyboard-top">
+      <i class="fa-solid fa-square-plus fa-xl"></i>
+      <input type = "text" placeholder="Hi!" class = "keyboard-input"/>
+      <i class="fa-solid fa-face-smile fa-xl"></i>
+    </div>
+    <div class = "keyboard-bottom">
+      <div class = first-line>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">q</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">w</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">e</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">r</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">t</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">y</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">u</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">i</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">o</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">p</span>
+        </div>
+      </div>
+      
+      <div class = "second-line">
+        <div class="keyboard-keys">
+          <span class="keyboard-key">a</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">s</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">d</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">f</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">g</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">h</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">j</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">k</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">l</span>
+        </div>
+      </div>
+      
+      <div class = "third-line">
+        <div class="keyboard-keys">
+          <span class="keyboard-key"><i class="fa-solid fa-up-long"></i></span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">z</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">x</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">c</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">v</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">b</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">n</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key">m</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key"><i class="fa-solid fa-delete-left"></i></span>
+        </div>
+
+      </div> 
+
+      <div class = "fourth-line">
+        <div class="keyboard-keys">
+          <span class="keyboard-key">123</span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key"><i class="fa-solid fa-globe"></i></span>
+        </div>
+        <div class="keyboard-keys">
+          <span class="keyboard-key"><i class="fa-solid fa-microphone-lines"></i></span>
+        </div>
+        <div class = "keyboard-keys">
+          <span class="keyboard-key">space</span>
+        </div>
+        <div class = "keyboard-keys">
+          <span class="keyboard-key">return</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://kit.fontawesome.com/f261383c8e.js" crossorigin="anonymous"></script>
+</body>
+</html>
+

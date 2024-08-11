@@ -1,0 +1,29 @@
+.sure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7%;
+  flex-direction: column;
+}
+
+.logoutsure {
+  font-size: 40px;
+  font-weight: 600;
+  color: #6bb347;
+  margin-bottom: 40px;
+}
+
+.logout-btn span {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.yes, .no {
+  background-color: #6bb347;
+  margin-right: 40px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+

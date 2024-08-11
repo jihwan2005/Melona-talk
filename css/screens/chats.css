@@ -30,6 +30,7 @@
   font-weight: 600;
   font-size: 25px;
   margin-right: 10px;
+  position: relatives;
 }
 
 .chat__text i {

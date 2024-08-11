@@ -1,0 +1,26 @@
+.logout {
+  background-color: #5eb044;
+}
+
+.logout-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 10%;
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.logout-title {
+  margin-bottom: 100px;
+}
+
+.logout-sub {
+  font-size: 40px;
+}
+
+.logout-screen i {
+  font-size: 40px;
+}
