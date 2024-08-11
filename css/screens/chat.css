@@ -111,3 +111,18 @@
   right: 14px;
   bottom: 38px;
 }
+
+.chat-main {
+  animation: chat 1s ease-in-out;
+}
+
+
+@keyframes chat {
+  0% {
+      transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}

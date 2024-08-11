@@ -62,3 +62,42 @@
   padding : 5px 10px;
   border-radius: 40px;
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: #96c444;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top : 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: hideSplashScreen 2s ease-in-out forwards;
+}
+
+.splash-screen-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.splash-screen-subtitle {
+  font-size: 70px;
+  font-weight: 600;
+  color: white;
+}
+

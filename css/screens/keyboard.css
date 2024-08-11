@@ -8,7 +8,7 @@
   width: 100%;
   border-top: 1px solid yellow;
   margin-bottom: 20px;
-
+  animation: keyboard 1s ease-in-out;
 }
 
 .keyboard-top {
@@ -105,4 +105,23 @@
 .keyboard-top i {
   margin-top: 13px;
   color: #50c916;
+}
+
+@keyframes keyboard {
+  0% {
+    transform: translateY(50px);
+  }
+
+  30%{
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
 }
