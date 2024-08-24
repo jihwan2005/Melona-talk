@@ -19,8 +19,61 @@
   margin-top: 10px;
 }
 
+#no-mobile span:last-child {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
 @media screen and (max-width : 600px) {
   #no-mobile {
     display: none;
   }
+}
+
+@keyframes waiting {
+  0% {
+    transform: scale(1,1);
+  }
+
+  25% {
+    transform: scale(1,1);
+  }
+
+  50% {
+    transform: scale(1.5,1.5);
+  }
+
+  75% {
+    transform: scale(1,1);
+  }
+
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+
+
+.waiting-circle {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 50%;
+  margin-top: 200px;
+  animation: waiting 2s ease infinite;
+}
+
+.waiting-circle:nth-child(2){
+  animation-delay: 0.2s;
+}
+
+.waiting-circle:last-child{
+  animation-delay: 0.4s;
+}
+
+.waiting {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }

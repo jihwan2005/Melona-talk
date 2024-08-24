@@ -19,6 +19,7 @@
 @import "screens/settings.css";
 @import "screens/logout.css";
 @import "screens/logoutbefore.css";
+@import "screens/user-profile.css";
 body {
   background-color: white;
   height: 1000vh;

@@ -29,6 +29,7 @@
 
 .friend {
   margin-bottom: 20px;
+  position: relative;
 }
 
 
@@ -101,3 +102,14 @@
   color: white;
 }
 
+.nav__notification3 {
+  width: 20px;
+  height: 20px;
+  background-color: #7ec85d;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  left: 70px;
+  top: 1px;
+  position: absolute;
+}
